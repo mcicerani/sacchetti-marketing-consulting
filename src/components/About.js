@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
     return (
         <div className="sezione h-dvh">
-            <h1 className="bg-red-400 text-white text-8xl">About Us</h1>
+            <h1 className="bg-red-400 text-white text-8xl">Chi Siamo</h1>
             <div className="grid grid-cols-3 grid-rows-1 h-5/6 m-6">
                 <img src="about.webp" alt="hero" className=" h-full col-start-1 col-span-2 row-start-1 m-auto"/>
                 <p className="p-6 text-2xl col-start-2 col-end-5 row-start-1 m-auto bg-white/75 shadow-xl">
