@@ -12,7 +12,7 @@ const Team = () => {
                             Martina Sacchetti
                         </h2>
                         <h3 className="text-xl">
-                            CEO
+                            Ruolo
                         </h3>
                     </li>
                     <li className="flex flex-col mx-20 justify-center items-center">
@@ -21,7 +21,7 @@ const Team = () => {
                             Chiara Sacchetti
                         </h2>
                         <h3 className="text-xl">
-                            CTO
+                            Ruolo
                         </h3>
                     </li>                
                     <li className="flex flex-col mx-20 justify-center items-center">
@@ -30,7 +30,7 @@ const Team = () => {
                             Emanuela Cittarelli
                         </h2>
                         <h3 className="text-xl">
-                            CFO
+                            Ruolo
                         </h3>
                     </li>
                 </ul>
