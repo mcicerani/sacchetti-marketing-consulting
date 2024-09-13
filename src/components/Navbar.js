@@ -25,33 +25,33 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
           isMenuOpen ? 'w-1/2' : 'w-0'
         }`}
       >
-        <ul className={`mt-40 ml-6 space-y-4 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0'}`}>
-          <li className="text-8xl cursor-pointer">
+        <ul className={`mt-32 ml-6 space-y-4 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0'}`}>
+          <li className="text-7xl cursor-pointer">
             <Link to="hero" smooth={true} duration={500} onClick={handleLinkClick}>
               Home
             </Link>
           </li>
-          <li className="text-8xl cursor-pointer">
+          <li className="text-7xl cursor-pointer">
             <Link to="about" smooth={true} duration={500} onClick={handleLinkClick}>
               Chi Siamo
             </Link>
           </li>
-          <li className="text-8xl cursor-pointer">
+          <li className="text-7xl cursor-pointer">
             <Link to="servizi" smooth={true} duration={500} onClick={handleLinkClick}>
               Servizi
             </Link>
           </li>
-          <li className="text-8xl cursor-pointer">
+          <li className="text-7xl cursor-pointer">
             <Link to="portfolio" smooth={true} duration={500} onClick={handleLinkClick}>
               Portfolio
             </Link>
           </li>
-          <li className="text-8xl cursor-pointer">
+          <li className="text-7xl cursor-pointer">
             <Link to="contatti" smooth={true} duration={500} onClick={handleLinkClick}>
               Contatti
             </Link>
           </li>
-          <li className="text-8xl cursor-pointer">
+          <li className="text-7xl cursor-pointer">
             <Link to="team" smooth={true} duration={500} onClick={handleLinkClick}>
               Team
             </Link>
