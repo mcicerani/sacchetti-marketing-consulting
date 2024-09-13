@@ -8,6 +8,10 @@ module.exports = {
       colors: {
         'logo': '#df1b48',
       },
+      fontFamily: {
+        work: ['Work Sans', 'sans-serif'],
+        marcellus: ['Marcellus', 'serif'],
+      },
       animation: {
         'infinite-scroll': 'infinite-scroll 75s linear infinite',
       },

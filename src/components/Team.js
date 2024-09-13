@@ -13,7 +13,7 @@ const Team = () => {
                         <h2 className="text-2xl my-3">
                             Martina Sacchetti
                         </h2>
-                        <h3 className="text-xl">
+                        <h3 className="text-xl font-work">
                             Ruolo
                         </h3>
                     </li>
@@ -22,7 +22,7 @@ const Team = () => {
                         <h2 className="text-2xl my-3">
                             Chiara Sacchetti
                         </h2>
-                        <h3 className="text-xl">
+                        <h3 className="text-xl font-work">
                             Ruolo
                         </h3>
                     </li>                
@@ -31,7 +31,7 @@ const Team = () => {
                         <h2 className="text-2xl my-3">
                             Emanuela Cittarelli
                         </h2>
-                        <h3 className="text-xl">
+                        <h3 className="text-xl font-work">
                             Ruolo
                         </h3>
                     </li>

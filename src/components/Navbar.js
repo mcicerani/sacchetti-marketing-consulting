@@ -25,7 +25,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
           isMenuOpen ? 'w-1/2' : 'w-0'
         }`}
       >
-        <ul className={`ml-6 space-y-4 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0'}`}>
+        <ul className={`font-marcellus ml-10 space-y-4 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0'}`}>
           <li className="text-7xl cursor-pointer">
             <Link to="hero" smooth={true} duration={500} onClick={handleLinkClick}>
               Home
@@ -59,13 +59,13 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
         </ul>
 
         {/* Icone social */}
-        <ul className="mt-20 flex flex-row text-4xl">
+        <ul className="font-marcellus mt-20 flex flex-row text-4xl">
           <li className="ml-10 mr-5"><SiInstagram /></li>
           <li><SiFacebook /></li>
         </ul>
 
         {/* Informazioni azienda */}
-        <ul className="mt-5 flex flex-row text-xl">
+        <ul className="font-marcellus mt-5 flex flex-row text-xl">
           <li className="ml-10 mr-5">Sacchetti Marketing Consulting</li>
           <li>P.IVA 03139530590</li>
         </ul>
