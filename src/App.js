@@ -37,11 +37,11 @@ function App() {
             <Portfolio />
           </section>
             <Clienti />
-          <section id="contatti">
-            <Contatti />
-          </section>
           <section id="team">
             <Team />
+          </section>
+          <section id="contatti">
+            <Contatti />
           </section>
           <Footer />
         </div>

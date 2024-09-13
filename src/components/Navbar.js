@@ -21,11 +21,11 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
 
       {/* Menu overlay */}
       <div
-        className={`fixed top-0 left-0 h-full bg-logo text-white overflow-hidden transition-all duration-300 ease-in-out z-40 ${
+        className={`fixed top-0 left-0 flex flex-col justify-center h-full bg-logo text-white overflow-hidden transition-all duration-300 ease-in-out z-40 ${
           isMenuOpen ? 'w-1/2' : 'w-0'
         }`}
       >
-        <ul className={`mt-32 ml-6 space-y-4 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0'}`}>
+        <ul className={`ml-6 space-y-4 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0'}`}>
           <li className="text-7xl cursor-pointer">
             <Link to="hero" smooth={true} duration={500} onClick={handleLinkClick}>
               Home
@@ -47,13 +47,13 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
             </Link>
           </li>
           <li className="text-7xl cursor-pointer">
-            <Link to="contatti" smooth={true} duration={500} onClick={handleLinkClick}>
-              Contatti
+            <Link to="team" smooth={true} duration={500} onClick={handleLinkClick}>
+              Team
             </Link>
           </li>
           <li className="text-7xl cursor-pointer">
-            <Link to="team" smooth={true} duration={500} onClick={handleLinkClick}>
-              Team
+            <Link to="contatti" smooth={true} duration={500} onClick={handleLinkClick}>
+              Contatti
             </Link>
           </li>
         </ul>
