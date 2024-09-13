@@ -16,12 +16,12 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
     <div className="relative">
       {/* Icona Hamburger (logo immagine) */}
       <div className="fixed top-7 right-7 z-50  cursor-pointer" onClick={toggleMenu}>
-        <img src="logo-bianco.png" alt="Logo" className=" h-20 rounded-full bg-red-400"  />
+        <img src="logo-bianco.png" alt="Logo" className=" h-20 rounded-full bg-logo p-1"  />
       </div>
 
       {/* Menu overlay */}
       <div
-        className={`fixed top-0 left-0 h-full bg-red-400 text-white overflow-hidden transition-all duration-300 ease-in-out z-40 ${
+        className={`fixed top-0 left-0 h-full bg-logo text-white overflow-hidden transition-all duration-300 ease-in-out z-40 ${
           isMenuOpen ? 'w-1/2' : 'w-0'
         }`}
       >

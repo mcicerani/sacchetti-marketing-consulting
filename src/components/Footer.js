@@ -5,7 +5,7 @@ import { SiFacebook } from "react-icons/si";
 const Footer = () => {
     return (
         <React.Fragment>
-        <div className="footer bg-red-400 text-white flex flex-row justify-between items-center">
+        <div className="footer bg-logo text-white flex flex-row justify-between items-center">
             <div className="flex flex-col justify-center items-center w-1/3">
                 <img src="logo-bianco.png" alt="logo" className="w-96"/>
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
         </div>
         <div>
-            <p className="text-sm bg-red-400 text-white text-center">Sacchetti Marketing Consulting P.IVA 03139530590 - Privacy Policy - Cookie Policy - Created By Matteo Cicerani</p>
+            <p className="text-sm bg-logo text-white text-center">Sacchetti Marketing Consulting P.IVA 03139530590 - Privacy Policy - Cookie Policy - Created By Matteo Cicerani</p>
         </div>
         </React.Fragment>
     );

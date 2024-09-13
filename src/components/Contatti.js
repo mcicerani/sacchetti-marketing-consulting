@@ -3,7 +3,7 @@ import React from "react";
 const Contatti = () => {
     return (
         <div className=" sezione h-screen">
-            <h1 className="bg-red-400 text-white text-8xl">Richiedi un Preventivo Gratuito</h1>
+            <h1 className="bg-logo text-white text-8xl">Richiedi un Preventivo Gratuito</h1>
             <form className="h-5/6 mt-6 flex items-center justify-center">
                 <div className="grid grid-cols-2 gap-4">
                     <div>
@@ -27,7 +27,7 @@ const Contatti = () => {
                         <textarea id="messaggio" name="messaggio" className="w-full p-2"></textarea>
                     </div>
                     <div>
-                        <button type="submit" className="bg-red-400 text-white p-2">Invia</button>
+                        <button type="submit" className="bg-logo text-white p-2">Invia</button>
                     </div>
                 </div>
             </form>

@@ -5,8 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'logo': '#df1b48',
+      },
       animation: {
-        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+        'infinite-scroll': 'infinite-scroll 75s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {
