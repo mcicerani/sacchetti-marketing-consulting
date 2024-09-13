@@ -16,7 +16,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
     <div className="relative">
       {/* Icona Hamburger (logo immagine) */}
       <div className="fixed top-7 right-7 z-50  cursor-pointer" onClick={toggleMenu}>
-        <img src="logo-bianco.png" alt="Logo" className=" h-20 rounded-full bg-logo p-1"  />
+        <img src="logo-min.png" alt="Logo" className=" h-20 rounded-full bg-logo p-2"  />
       </div>
 
       {/* Menu overlay */}

@@ -7,7 +7,7 @@ const Footer = () => {
         <React.Fragment>
         <div className="footer bg-logo text-white flex flex-row justify-between items-center">
             <div className="flex flex-col justify-center items-center w-1/3">
-                <img src="logo-bianco-nero.png" alt="logo" className="w-96"/>
+                <img src="logo-bianco.png" alt="logo" className="w-96"/>
             </div>
             <div className="flex flex-col justify-center items-center w-1/3">
                 <h1 className="text-3xl my-5">Contatti</h1>
