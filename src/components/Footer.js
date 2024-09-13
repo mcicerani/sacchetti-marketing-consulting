@@ -7,7 +7,7 @@ const Footer = () => {
         <React.Fragment>
         <div className="footer bg-red-400 text-white flex flex-row justify-between items-center">
             <div className="flex flex-col justify-center items-center w-1/3">
-                <img src="logo.png" alt="logo" className="w-96"/>
+                <img src="logo-bianco.png" alt="logo" className="w-96"/>
             </div>
             <div className="flex flex-col justify-center items-center w-1/3">
                 <h1 className="text-3xl my-5">Contatti</h1>
@@ -18,7 +18,9 @@ const Footer = () => {
 
             </div>
             <div className="flex flex-col justify-center items-center w-1/3">
-                <ul className="flex flex-row text-3xl">
+                <h1 className="text-3xl my-5">Dove Trovarci</h1>
+                <p className="text-xl text-center">Via Lungolinea Pio VI, 120 <br></br>04019 Terracina (LT) </p>
+                <ul className="flex flex-row text-3xl my-5">
                     <li className="mx-2"><SiInstagram /></li>
                     <li className="mx-2"><SiFacebook /></li>
                 </ul>
