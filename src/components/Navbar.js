@@ -26,32 +26,32 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
         }`}
       >
         <ul className={`font-marcellus ml-10 space-y-4 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0'}`}>
-          <li className="text-6xl lg:text-7xl cursor-pointer">
+          <li className="text-5xl lg:text-7xl cursor-pointer">
             <Link to="hero" smooth={true} duration={500} onClick={handleLinkClick}>
               Home
             </Link>
           </li>
-          <li className="text-6xl lg:text-7xl cursor-pointer">
+          <li className="text-5xl lg:text-7xl cursor-pointer">
             <Link to="about" smooth={true} duration={500} onClick={handleLinkClick}>
               Chi Siamo
             </Link>
           </li>
-          <li className="text-6xl lg:text-7xl cursor-pointer">
+          <li className="text-5xl lg:text-7xl cursor-pointer">
             <Link to="servizi" smooth={true} duration={500} onClick={handleLinkClick}>
               Servizi
             </Link>
           </li>
-          <li className="text-6xl lg:text-7xl cursor-pointer">
+          <li className="text-5xl lg:text-7xl cursor-pointer">
             <Link to="portfolio" smooth={true} duration={500} onClick={handleLinkClick}>
               Portfolio
             </Link>
           </li>
-          <li className="text-6xl lg:text-7xl cursor-pointer">
+          <li className="text-5xl lg:text-7xl cursor-pointer">
             <Link to="team" smooth={true} duration={500} onClick={handleLinkClick}>
               Team
             </Link>
           </li>
-          <li className="text-6xl lg:text-7xl cursor-pointer">
+          <li className="text-5xl lg:text-7xl cursor-pointer">
             <Link to="contatti" smooth={true} duration={500} onClick={handleLinkClick}>
               Contatti
             </Link>
