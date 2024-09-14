@@ -5,7 +5,7 @@ import React from "react";
 const Team = () => {
     return (
         <div className="sezione min-h-dvh lg:h-dvh">
-            <h1 className="bg-logo text-white text-7xl lg:text-8xl">Il Nostro Team</h1>
+            <h1 className="bg-logo text-white text-6xl lg:text-8xl">Il Nostro Team</h1>
             <div className="flex justify-center items-center h-full">
                 <ul className="flex flex-col lg:flex-row justify-center items-center">
                     <li className="flex flex-col mx-5 my-5 lg:mx-20 justify-center items-center ">
