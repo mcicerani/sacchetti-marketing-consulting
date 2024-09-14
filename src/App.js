@@ -18,7 +18,7 @@ function App() {
       <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
 
       {/* Pagina contenuto con maschera e spostamento */}
-      <div className={`transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-1/2' : ''}`}>
+      <div className={`transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-3/4 lg:translate-x-1/2' : ''}`}>
         {/* Maschera scura */}
         <div className={`fixed inset-0 bg-black bg-opacity-50 z-30 transition-opacity ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} />
 
