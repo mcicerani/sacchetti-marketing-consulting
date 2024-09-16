@@ -9,7 +9,7 @@ const Team = () => {
             <div className="flex justify-center items-center h-full">
                 <ul className="flex flex-col lg:flex-row justify-center items-center">
                     <li className="flex flex-col mx-5 my-5 lg:mx-20 justify-center items-center ">
-                        <img src="manu.jpg" alt="" className="rounded-full h-48 lg:h-80 grayscale ease-in-out duration-500 hover:grayscale-0"/>
+                        <img src="manu.jpg" alt="" className="rounded-full h-48 lg:h-80"/>
                         <h2 className="text-l lg:text-2xl my-1">
                             Martina Sacchetti
                         </h2>

@@ -24,6 +24,7 @@ const Contatti = () => {
                     <div>
                         <button type="submit" className="bg-logo text-white w-32 lg:w-48 h-14 rounded-xl text-xl hover:bg-black hover:text-logo ease-in-out duration-500">Invia</button>
                     </div>
+                    <img src="qr-code.png" alt="QR Code" className="h-48 mx-auto mt-10 col-span-2" />
                 </div>
             </form>
         </div>

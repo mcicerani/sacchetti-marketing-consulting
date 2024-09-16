@@ -42,7 +42,7 @@ const Clienti = () => {
                 <li className="px-1"><img src="21.svg" alt="Sandro Di Mauro Impresa Edile"/></li>
                 <li className="px-1"><img src="22.svg" alt="Buttafoco 2.0 Food&Beverage"/></li>
                 <li className="px-1"><img src="23.svg" alt="Visit Terracina"/></li>
-                <li className="px-1"><img src="24.svg" alt="Circe Immobiliare"/></li>
+                <li className="px-1"><img src="24.png" alt="Circe Immobiliare"/></li>
                 <li className="px-1"><img src="25.svg" alt="La Magic Paint"/></li>
                 <li className="px-1"><img src="26.svg" alt="Power 360"/></li>
                 <li className="px-1"><img src="27.svg" alt="Red Baron Club"/></li>

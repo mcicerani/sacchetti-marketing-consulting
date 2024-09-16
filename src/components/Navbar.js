@@ -15,7 +15,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
   return (
     <div className="relative">
       {/* Icona Hamburger (logo immagine) */}
-      <div className="fixed bottom-5 lg:top-7 right-1 lg:right-7 z-50 cursor-pointer" onClick={toggleMenu}>
+      <div className="fixed bottom-5 lg:bottom-auto lg:top-7 right-1 lg:right-7 z-50 cursor-pointer" onClick={toggleMenu}>
         <img src="logo-min.png" alt="Logo" className="h-14 lg:h-20 rounded-full bg-logo border shadow-xl border-white-50 p-2"  />
       </div>
 
@@ -59,9 +59,9 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
         </ul>
 
         {/* Icone social */}
-        <ul className="font-marcellus mt-20 flex flex-row text-3xl lg:text-4xl">
-          <li className="ml-10 mr-5"><SiInstagram /></li>
-          <li><SiFacebook /></li>
+        <ul className="font-marcellus mt-20 ml-5 flex flex-row text-3xl lg:text-4xl">
+          <li className="mx-5 ease-in-out duration-500 lg:hover:scale-125"><a href='https://www.instagram.com/sacchettimktconsulting/'><SiInstagram /></a></li>
+          <li className='ease-in-out duration-500 lg:hover:scale-125'><a href='https://www.facebook.com/profile.php?id=61559447582233'><SiFacebook /></a></li>
         </ul>
 
         {/* Informazioni azienda */}

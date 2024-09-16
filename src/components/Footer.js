@@ -10,8 +10,8 @@ const Footer = () => {
                 <h1 className="text-2xl lg:text-3xl mt-5">Dove Trovarci</h1>
                 <p className="text-l lg:text-xl text-center">Via Lungolinea Pio VI, 120 <br></br>04019 Terracina (LT) </p>
                 <ul className="flex flex-row text-2xl lg:text-3xl my-2">
-                    <li className="mx-2"><SiInstagram /></li>
-                    <li className="mx-2"><SiFacebook /></li>
+                    <li className="mx-2 ease-in-out duration-500 lg:hover:scale-125"><a href="https://www.instagram.com/sacchettimktconsulting/"><SiInstagram /></a></li>
+                    <li className="mx-2 ease-in-out duration-500 lg:hover:scale-125"><a href="https://www.facebook.com/profile.php?id=61559447582233"><SiFacebook /></a></li>
                 </ul>
             </div>
             <div className="flex flex-col justify-center items-center my-3 mx-1">
