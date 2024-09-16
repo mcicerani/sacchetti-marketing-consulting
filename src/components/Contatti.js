@@ -18,10 +18,10 @@ const Contatti = () => {
                     <div>
                         <input type="text" id="telefono" name="telefono" placeholder="Telefono" className="w-full p-2 rounded-sm border border-gray-500 block focus:border-logo focus:ring-logo" />
                     </div>
-                    <div>
+                    <div className="col-span-2 lg:col-span-1">
                         <textarea id="messaggio" name="messaggio" placeholder="Messaggio" className="w-full p-2 rounded-sm border border-gray-500 block resize-none h-20 focus:border-logo focus:ring-logo" required></textarea>
                     </div>
-                    <div>
+                    <div className="col-span-2 lg:col-span-1 flex items-center justify-center lg:justify-normal">
                         <button type="submit" className="bg-logo text-white w-32 lg:w-48 h-14 rounded-xl text-xl hover:bg-black hover:text-logo ease-in-out duration-500">Invia</button>
                     </div>
                     <img src="qr-code.png" alt="QR Code" className="h-48 mx-auto mt-10 col-span-2" />
