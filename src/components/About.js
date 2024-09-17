@@ -18,7 +18,7 @@ const About = () => {
                     <span className="text-logo font-medium">Cosa Facciamo?</span>
                     <br></br>
                     Trasformiamo sogni e progetti in fatti reali e concreti.
-                    Laddove vi è un’esigenza comunicativa noi l’ascoltiamo e successivamente insieme a voi la progettiamo.
+                    Laddove c'è un’esigenza comunicativa, noi l’ascoltiamo e successivamente, insieme a voi, la progettiamo.
                 </p>
             </div>
         </div>

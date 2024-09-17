@@ -14,7 +14,7 @@ const Team = () => {
                             Martina Sacchetti
                         </h2>
                         <h3 className="text-l lg:text-xl font-work">
-                            Ruolo
+                            Marketing Manager
                         </h3>
                     </li>
                     <li className="flex flex-col mx-5 my-5 lg:mx-20 justify-center items-center">
@@ -23,7 +23,7 @@ const Team = () => {
                             Chiara Sacchetti
                         </h2>
                         <h3 className="text-l lg:text-xl font-work">
-                            Ruolo
+                            Copywriter
                         </h3>
                     </li>                
                     <li className="flex flex-col mx-5 my-5 lg:mx-20 justify-center items-center">
@@ -32,7 +32,7 @@ const Team = () => {
                             Emanuela Cittarelli
                         </h2>
                         <h3 className="text-l lg:text-xl font-work">
-                            Ruolo
+                            Graphic Designer
                         </h3>
                     </li>
                 </ul>
