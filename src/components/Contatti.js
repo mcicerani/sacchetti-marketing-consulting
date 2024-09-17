@@ -3,7 +3,7 @@ import React from "react";
 const Contatti = () => {
     return (
         <div className=" sezione lg:h-dvh">
-            <h1 className="bg-logo text-white text-6xl lg:text-8xl">Richiedi un Preventivo Gratuito</h1>
+            <h1 className="bg-logo text-white text-5xl lg:text-8xl">Richiedi un Preventivo Gratuito</h1>
             <form className="h-5/6 mt-6 flex items-center justify-center">
                 <div className="grid grid-cols-2 gap-10 w-full" >
                     <div>
