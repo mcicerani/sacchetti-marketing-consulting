@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
         </div>
         <div>
-            <p className="text-xs lg:text-sm bg-logo text-white text-center pt-10 lg:pt-0">Privacy Policy - Cookie Policy <br></br>Sacchetti Marketing Consulting P.IVA 03139530590 - Created By Matteo Cicerani</p>
+            <p className="text-xs lg:text-sm bg-logo text-white text-center pt-10 lg:pt-0">Privacy Policy - Cookie Policy <br></br>Sacchetti Marketing Consulting P.IVA 03139530590 - Created By <a href="https://mcicerani.live">Matteo Cicerani</a></p>
         </div>
         </React.Fragment>
     );
