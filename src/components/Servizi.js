@@ -4,7 +4,7 @@ const Servizi = () => {
     return (
         <div className="sezione min-h-dvh lg:h-dvh">
             <h1 className="bg-logo text-white text-5xl lg:text-8xl">I Nostri Servizi</h1>
-            <div className="grid lg:grid-cols-3 lg:grid-rows-2 h-5/6 m-10 items-center justify-center gap-10 lg:p-5">
+            <div className="grid md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 h-5/6 m-10 items-center justify-center gap-10 lg:p-5">
             <div className="servizio shadow-xl bg-gray-300/75 rounded-lg p-10 lg:p-5 text-center h-80 lg:h-5/6 flex flex-col items-center justify-center">
                     <h2 className="text-3xl m-4">Social Media Manager</h2>
                     <p className="text-base lg:text-lg">
