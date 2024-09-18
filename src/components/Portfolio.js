@@ -37,13 +37,13 @@ const Portfolio = () => {
     return (
         <div className="sezione min-h-dvh">
             <h1 className="bg-logo text-white text-5xl lg:text-8xl">I Nostri Lavori</h1>
-            <p className="text-base lg:text-xl mt-10">
+            <p className="text-base lg:text-xl mt-5 lg:mt-10">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
-            <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 items-center justify-center mt-10">
+            <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 items-center justify-center mt-5 lg:mt-10">
                 {projects.map((project, index) => (
                     <div key={index} className={`portfolio-item relative group ${index === 0 || index === 5 ? 'lg:col-span-3' : index === 1 || index === 4 ? 'lg:col-span-2' : ''}`}>
                         <img

@@ -1,53 +1,54 @@
 import React from "react";
+import { FaHeart, FaSitemap, FaPhotoVideo, FaCalendar, FaEuroSign, FaVolumeUp } from "react-icons/fa";  // Importa le icone correttamente
 
 const Servizi = () => {
+    const servizi = [
+        {
+            title: "Social Media Manager",
+            description: "Apertura e gestione periodica dei social network con pubblicazione di contenuti.",
+            icona: FaHeart  // Usa direttamente il componente icona
+        },
+        {
+            title: "Siti Web",
+            description: "Realizzazione di siti web, blog, landing page con testi redatti in ottica SEO e SEM. Gestione e manutenzione periodica.",
+            icona: FaSitemap
+        },
+        {
+            title: "Foto, Video e Grafica",
+            description: "Organizzazione e realizzazione di shooting fotografici e video con Fotografi professionisti e Videomaker. Realizzazione grafica digitale e cartacea: volantini, brochure, locandine e gadget.",
+            icona: FaPhotoVideo
+        },
+        {
+            title: "Organizzazione Eventi",
+            description: "Ci occupiamo di eventi a 360º: ricerca location, moderatori e relatori, sponsorizzazioni e partnership, richiesta permessi burocratici, allestimento, comunicazione e ufficio stampa",
+            icona: FaCalendar
+        },
+        {
+            title: "Consulenza Aziendale",
+            description: "Valutazione dell'andamento e redazione del piano di marketing. Sviluppo e implementazione strategie di marketing. Monitoraggio, misurazione e supporto. Lancio di nuovi prodotti e progetti.",
+            icona: FaEuroSign
+        },
+        {
+            title: "Ufficio Stampa",
+            description: "Redazione di comunicati stampa, invio a mailing list, monitoraggio online e offline della brand reputation. Scrittura testi e articoli per il web e per la stampa. Organizzazione di conferenze stampa.",
+            icona: FaVolumeUp
+        }
+    ];
+
     return (
         <div className="sezione min-h-dvh lg:h-dvh">
             <h1 className="bg-logo text-white text-5xl lg:text-8xl">I Nostri Servizi</h1>
             <div className="grid md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 h-5/6 m-10 items-center justify-center gap-10 lg:p-5">
-            <div className="servizio shadow-xl bg-gray-300/75 rounded-lg p-10 lg:p-5 text-center h-80 lg:h-5/6 flex flex-col items-center justify-center">
-                    <h2 className="text-3xl m-4">Social Media Manager</h2>
-                    <p className="text-base lg:text-lg">
-                        Apertura e gestione periodica dei social network con pubblicazione di contenuti.
-                    </p>
-                </div>
-                <div className="servizio shadow-xl bg-gray-300/75 rounded-lg p-10 lg:p-5 text-center h-80 lg:h-5/6 flex flex-col items-center justify-center">
-                    <h2 className="text-3xl m-4">Siti Web</h2>
-                    <p className="text-base lg:text-lg">
-                        Realizzazione di siti web, blog, landing page con testi redatti in ottica SEO e SEM.<br></br>
-                        Gestione e manutenzione periodica
-                    </p>
-                </div>
-                <div className="servizio shadow-xl bg-gray-300/75 rounded-lg p-10 lg:p-5 text-center h-80 lg:h-5/6 flex flex-col items-center justify-center">
-                    <h2 className="text-3xl m-4">Foto, Video e Grafica</h2>
-                    <p className="text-base lg:text-lg">
-                        Organizzazione e realizzazione di shooting fotografici e video con Fotografi professionisti e Videomaker.<br></br>
-                        Realizzazione grafica digitale e cartacea: volantini, brochure, locandine e gadget.
-                    </p>
-                </div>
-                <div className="servizio shadow-xl bg-gray-300/75 rounded-lg p-10 lg:p-5 text-center h-80 lg:h-5/6 flex flex-col items-center justify-center">
-                    <h2 className="text-3xl m-4">Organizzazione Eventi</h2>
-                    <p className="text-base lg:text-lg">
-                        Ci occupiamo di eventi a 360º: ricerca location, moderatori e relatori, sponsorizzazioni e
-                        partnership, richiesta permessi burocratici, allestimento, comunicazione e ufficio stampa
-                    </p>
-                </div>
-                <div className="servizio shadow-xl bg-gray-300/75 rounded-lg p-10 lg:p-5 text-center h-80 lg:h-5/6 flex flex-col items-center justify-center">
-                    <h2 className="text-3xl m-4">Consulenza Aziendale</h2>
-                    <p className="text-base lg:text-lg">
-                        Valutazione dell'andamento e redazione del piano di marketing.<br></br>
-                        Sviluppo e implementazione strategie di marketing.<br></br>
-                        Monitoraggio, misurazione e supporto.<br></br>
-                        Lancio di nuovi prodotti e progetti.<br></br>
-                    </p>
-                </div>
-                <div className="servizio shadow-xl bg-gray-300/75 rounded-lg p-10 lg:p-5 text-center h-80 lg:h-5/6 flex flex-col items-center justify-center">
-                    <h2 className="text-3xl m-4">Ufficio Stampa</h2>
-                    <p className="text-base lg:text-lg">
-                        Redazione di comunicati stampa, invio a mailing list, monitoraggio online e offline della brand reputation.<br></br>
-                        Scrittura testi e articoli per il web e per la stampa.<br></br> Organizzazione di conferenze stampa.
-                    </p>
-                </div>
+                {servizi.map((servizio, index) => (
+                    <div key={index} className="servizio shadow-xl bg-gray-300/75 rounded-lg p-10 lg:p-5 text-center h-full flex flex-col items-center justify-center">
+                        {/* Renderizza l'icona */}
+                        <h2 className="text-3xl m-4">{servizio.title}</h2>
+                        <p className="text-base lg:text-lg">
+                            {servizio.description}
+                        </p>
+                        <servizio.icona className="text-2xl mt-4" />
+                    </div>
+                ))}
             </div>
         </div>
     );
