@@ -8,8 +8,6 @@ module.exports = {
       colors: {
         'logo': '#df1b48',
         'ghost': '#F3F4F6',
-        'ghost-2': '#F4F5F9',
-        'ghost-3': '#F5F5F7',
       },
       fontFamily: {
         work: ['Work Sans', 'sans-serif'],

@@ -14,10 +14,10 @@ const Clienti = () => {
     }, []);
 
     return (
-        <div className="w-full inline-flex flex-nowrap overflow-hidden bg-gray-100 h-32 lg:h-auto [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+        <div className="w-full inline-flex flex-nowrap overflow-hidden h-32 lg:h-auto [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
             <ul
                 ref={logosRef}
-                className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+                className="flex items-center justify-center md:justify-start [&_li]:mx-2 lg:[&_li]:mx-4 [&_img]:max-w-none animate-infinite-scroll"
             >
                 <li className="px-1"><img className="h-28 lg:h-auto" src="1.svg" alt="In Salute" /></li>
                 <li className="px-1"><img className="h-28 lg:h-auto" src="2.svg" alt="Diet Natural" /></li>
