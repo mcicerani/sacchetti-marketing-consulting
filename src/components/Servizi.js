@@ -40,13 +40,13 @@ const Servizi = () => {
             <h1 className="bg-logo text-white text-5xl lg:text-8xl">I Nostri Servizi</h1>
             <div className="grid md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 h-5/6 m-10 items-center justify-center gap-10 lg:p-5">
                 {servizi.map((servizio, index) => (
-                    <div key={index} className="servizio shadow-xl bg-gray-300/75 rounded-lg p-10 lg:p-5 text-center h-full flex flex-col items-center justify-center">
+                    <div key={index} className="servizio shadow-xl bg-white rounded-lg p-10 lg:p-5 text-center h-full flex flex-col items-center justify-center">
                         {/* Renderizza l'icona */}
-                        <h2 className="text-3xl m-4">{servizio.title}</h2>
-                        <p className="text-base lg:text-lg">
+                        <h2 className="text-3xl m-4 text-logo">{servizio.title}</h2>
+                        <p className="text-base lg:text-lg text-gray-500">
                             {servizio.description}
                         </p>
-                        <servizio.icona className="text-2xl mt-4" />
+                        <servizio.icona className="text-2xl mt-4 text-logo" />
                     </div>
                 ))}
             </div>

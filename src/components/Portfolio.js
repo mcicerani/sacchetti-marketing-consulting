@@ -45,11 +45,11 @@ const Portfolio = () => {
             </p>
             <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 items-center justify-center mt-5 lg:mt-10">
                 {projects.map((project, index) => (
-                    <div key={index} className={`portfolio-item relative group ${index === 0 || index === 5 ? 'lg:col-span-3' : index === 1 || index === 4 ? 'lg:col-span-2' : ''}`}>
+                    <div key={index} className={`portfolio-item relative group ${index === 0  ? 'lg:col-span-3' : index === 1 || index === 4 || index === 5 ? 'lg:col-span-2' : index === 3 ? 'lg:row-span-2 lg:h-full' : ''}`}>
                         <img
                             src={project.image}
                             alt={project.title}
-                            className="lg:w-full lg:h-96 object-cover rounded-xl"
+                            className={`w-full ${index === 3 ? 'h-full' : 'h-96'} object-cover rounded-xl`}
                         />
                         {/* Title and description container */}
                         <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 flex flex-col justify-center items-start rounded-b-xl max-h-[40px] overflow-hidden transform transition-all duration-500 ease-in-out group-hover:max-h-[160px] group-hover:bg-opacity-100 group-hover:bg-logo">

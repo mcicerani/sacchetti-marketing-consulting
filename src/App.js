@@ -14,7 +14,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="App">
+    <div className="App bg-ghost">
       <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
 
       {/* Pagina contenuto con maschera e spostamento */}
