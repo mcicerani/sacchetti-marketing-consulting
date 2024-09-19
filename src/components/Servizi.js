@@ -1,5 +1,8 @@
 import React from "react";
-import { FaHeart, FaSitemap, FaPhotoVideo, FaCalendar, FaEuroSign, FaVolumeUp } from "react-icons/fa";  // Importa le icone correttamente
+import { FaHeart, FaPhotoVideo, FaCalendar} from "react-icons/fa";  // Importa le icone correttamente
+import { GrAnnounce } from "react-icons/gr";
+import { TbWorldWww, TbBusinessplan  } from "react-icons/tb";
+
 
 const Servizi = () => {
     const servizi = [
@@ -11,7 +14,7 @@ const Servizi = () => {
         {
             title: "Siti Web",
             description: "Realizzazione di siti web, blog, landing page con testi redatti in ottica SEO e SEM. Gestione e manutenzione periodica.",
-            icona: FaSitemap
+            icona: TbWorldWww
         },
         {
             title: "Foto, Video e Grafica",
@@ -26,12 +29,12 @@ const Servizi = () => {
         {
             title: "Consulenza Aziendale",
             description: "Valutazione dell'andamento e redazione del piano di marketing. Sviluppo e implementazione strategie di marketing. Monitoraggio, misurazione e supporto. Lancio di nuovi prodotti e progetti.",
-            icona: FaEuroSign
+            icona: TbBusinessplan  
         },
         {
             title: "Ufficio Stampa",
             description: "Redazione di comunicati stampa, invio a mailing list, monitoraggio online e offline della brand reputation. Scrittura testi e articoli per il web e per la stampa. Organizzazione di conferenze stampa.",
-            icona: FaVolumeUp
+            icona: GrAnnounce
         }
     ];
 

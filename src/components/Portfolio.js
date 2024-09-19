@@ -1,4 +1,5 @@
 import React from "react";
+import Clienti from './Clienti';
 
 const Portfolio = () => {
     const projects = [
@@ -65,6 +66,7 @@ const Portfolio = () => {
                     </div>
                 ))}
             </div>
+            <Clienti/>
         </div>
     );
 }
