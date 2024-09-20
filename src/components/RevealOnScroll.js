@@ -21,8 +21,8 @@ const RevealOnScroll = ({ children }) => {
             }
         };    }, []);
  
-    const classes = `transition-opacity duration-1000 ease-in-out 
-        ${isVisible ? "opacity-100" : "opacity-0"
+    const classes = `transition-all duration-1000 ease-in-out transform
+        ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`;
  
     return (
