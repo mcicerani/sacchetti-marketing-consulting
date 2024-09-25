@@ -32,11 +32,6 @@ function App() {
           </section>
           </RevealOnScroll>
           <RevealOnScroll>
-          <section id="team">
-            <Team />
-          </section>
-          </RevealOnScroll>
-          <RevealOnScroll>
           <section id="servizi">
             <Servizi />
           </section>
@@ -45,6 +40,11 @@ function App() {
           <RevealOnScroll>
           <section id="portfolio">
             <Portfolio />
+          </section>
+          </RevealOnScroll>
+          <RevealOnScroll>
+          <section id="team">
+            <Team />
           </section>
           </RevealOnScroll>
           <RevealOnScroll>
