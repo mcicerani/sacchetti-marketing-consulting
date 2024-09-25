@@ -50,7 +50,7 @@ const Portfolio = () => {
                         <img
                             src={project.image}
                             alt={project.title}
-                            className={`w-full ${index === 3 ? 'h-full' : 'h-96'} object-cover rounded-xl`}
+                            className={`w-full ${index === 3 ? 'lg:h-full' : 'lg:h-96'} object-cover rounded-xl`}
                         />
                         {/* Title and description container */}
                         <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 flex flex-col justify-center items-start rounded-b-xl max-h-[40px] overflow-hidden transform transition-all duration-500 ease-in-out group-hover:max-h-[160px] group-hover:bg-opacity-100 group-hover:bg-logo">

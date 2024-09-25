@@ -54,6 +54,12 @@ const Clienti = () => {
                 <li className="px-1"><img className="h-28 lg:h-auto" src="33.svg" alt="Dea Yachting"/></li>
                 <li className="px-1"><img className="h-28 lg:h-auto" src="34.svg" alt="Eco Mixed"/></li>
                 <li className="px-1"><img className="h-28 lg:h-auto" src="35.svg" alt="Polo Museale di Terracina"/></li>
+                <li className="px-1"><img className="h-28 lg:h-auto" src="36.svg" alt="Conti Consulenze"/></li>
+                <li className="px-1"><img className="h-28 lg:h-auto" src="37.svg" alt="SPE International"/></li>
+                <li className="px-1"><img className="h-28 lg:h-auto" src="38.svg" alt="Illusion Dinner Live Disco"/></li>
+                <li className="px-1"><img className="h-28 lg:h-auto" src="39.svg" alt="Fondazione Città di Terracina"/></li>
+                <li className="px-1"><img className="h-28 lg:h-auto" src="40.svg" alt="EvenGarden Shopping Center"/></li>
+                <li className="px-1"><img className="h-28 lg:h-auto" src="41.svg" alt="SoloMar"/></li>
             </ul>
         </div>
     );
