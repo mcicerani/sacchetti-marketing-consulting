@@ -2,6 +2,7 @@ import React from "react";
 import { FaHeart, FaPhotoVideo, FaCalendar} from "react-icons/fa";  // Importa le icone correttamente
 import { GrAnnounce } from "react-icons/gr";
 import { TbWorldWww, TbBusinessplan  } from "react-icons/tb";
+import Parallax from "./Parallax";
 
 
 const Servizi = () => {
@@ -39,21 +40,40 @@ const Servizi = () => {
     ];
 
     return (
-        <div className="sezione min-h-dvh lg:h-dvh">
-            <h1 className="bg-logo text-white text-5xl lg:text-8xl">I Nostri Servizi</h1>
-            <div className="grid md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 h-5/6 m-10 items-center justify-center gap-10 lg:p-5">
-                {servizi.map((servizio, index) => (
-                    <div key={index} className="servizio shadow-xl bg-white rounded-lg p-10 lg:p-5 text-center h-full flex flex-col items-center justify-center">
-                        {/* Renderizza l'icona */}
-                        <h2 className="text-3xl m-4 text-logo">{servizio.title}</h2>
-                        <p className="text-base lg:text-lg text-gray-500">
-                            {servizio.description}
-                        </p>
-                        <servizio.icona className="text-2xl mt-4 text-logo" />
-                    </div>
-                ))}
+        <React.Fragment>
+            <div className="sezione min-h-dvh lg:h-dvh">
+                <h1 className="bg-logo text-white text-5xl lg:text-8xl">I Nostri Servizi</h1>
+                <div className="grid md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 h-5/6 m-10 items-center justify-center gap-10 lg:p-5">
+                    {servizi.map((servizio, index) => (
+                        <div key={index} className="servizio shadow-xl bg-white rounded-lg p-10 lg:p-5 text-center h-full flex flex-col items-center justify-center">
+                            {/* Renderizza l'icona */}
+                            <h2 className="text-3xl m-4 text-logo">{servizio.title}</h2>
+                            <p className="text-base lg:text-lg text-gray-500">
+                                {servizio.description}
+                            </p>
+                            <servizio.icona className="text-2xl mt-4 text-logo" />
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
+            <Parallax image="parallax-2.png" height="50vh">
+                <div className="h-40 p-4 border-[1px] w-full lg:w-72 border-white bg-logo/60 flex justify-center items-center lg:rounded-lg">
+                    <h1 className="text-2xl lg:text-4xl text-white">Ascoltiamo</h1>
+                </div>
+                <div className="h-40 p-4 border-[1px] w-full lg:w-72 border-white bg-logo/60 flex justify-center items-center lg:rounded-lg">
+                    <h1 className="text-2xl lg:text-4xl text-white">Analizziamo</h1>
+                </div>
+                <div className="h-40 p-4 border-[1px] w-full lg:w-72 border-white bg-logo/60 flex justify-center items-center lg:rounded-lg">
+                    <h1 className="text-2xl lg:text-4xl text-white">Pianifichiamo</h1>
+                </div>
+                <div className="h-40 p-4 border-[1px] w-full lg:w-72 border-white bg-logo/60 flex justify-center items-center lg:rounded-lg">
+                    <h1 className="text-2xl lg:text-4xl text-white">Progettiamo</h1>
+                </div>
+                <div className="h-40 p-4 border-[1px] w-full lg:w-72 border-white bg-logo/60 flex justify-center items-center lg:rounded-lg">
+                    <h1 className="text-2xl lg:text-4xl text-white">Realizziamo</h1>
+                </div>
+            </Parallax>
+        </React.Fragment>
     );
 }
 

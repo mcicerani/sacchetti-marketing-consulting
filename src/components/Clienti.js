@@ -14,7 +14,7 @@ const Clienti = () => {
     }, []);
 
     return (
-        <div className="mt-10 w-full inline-flex flex-nowrap overflow-hidden h-32 lg:h-auto [mask-image:_linear-gradient(to_right,transparent_0,_black_132px,_black_calc(100%-132px),transparent_100%)]">
+        <div className="bg-logo/60 w-full inline-flex flex-nowrap overflow-hidden h-full">
             <ul
                 ref={logosRef}
                 className="flex items-center justify-center md:justify-start [&_li]:mx-2 lg:[&_li]:mx-4 [&_img]:max-w-none animate-infinite-scroll"

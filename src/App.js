@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 import React,{ useState } from 'react';
 import Contatti from './components/Contatti';
 import RevealOnScroll from './components/RevealOnScroll';
-import Parallax from './components/Parallax';
 
 function App() {
 
@@ -34,7 +33,6 @@ function App() {
           <section id="servizi">
             <Servizi />
           </section>
-          <Parallax/>
           </RevealOnScroll>
           <RevealOnScroll>
           <section id="portfolio">

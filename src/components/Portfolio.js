@@ -1,5 +1,6 @@
 import React from "react";
 import Clienti from './Clienti';
+import Parallax from "./Parallax";
 
 const Portfolio = () => {
     const projects = [
@@ -44,7 +45,7 @@ const Portfolio = () => {
                 frutto della nostra passione per il marketing e la comunicazione. Qui troverai alcuni dei lavori che meglio 
                 rappresentano il nostro approccio creativo e strategico.
             </p>
-            <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 items-center justify-center mt-5 lg:mt-10">
+            <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 items-center justify-center my-10">
                 {projects.map((project, index) => (
                     <div key={index} className={`portfolio-item relative group ${index === 0  ? 'lg:col-span-3' : index === 1 || index === 4 || index === 5 ? 'lg:col-span-2' : index === 3 ? 'lg:row-span-2 lg:h-full' : ''}`}>
                         <img
@@ -66,7 +67,9 @@ const Portfolio = () => {
                     </div>
                 ))}
             </div>
-            <Clienti/>
+            <Parallax image="parallax-3.jpg" height="20vh">
+                <Clienti/>
+            </Parallax>
         </div>
     );
 }
