@@ -1,26 +1,45 @@
 import React from "react";
+import Team from "./Team";
 
 const About = () => {
     return (
-        <div className="sezione lg:h-dvh">
-            <h1 className="bg-logo text-white text-5xl lg:text-8xl">Chi Siamo</h1>
-            <div className="lg:grid lg:grid-cols-3 grid-rows-2 lg:grid-rows-1 h-full lg:h-5/6 lg:m-6">
-                <img src="about.webp" alt="hero" className="my-5 lg:h-full lg:col-start-1 lg:col-span-2 lg:row-start-1 lg:m-auto resize-none object-cover"/>
-                <p className="pl-1 lg:p-6 text-base lg:text-xl lg:col-start-2 lg:col-end-5 lg:row-start-1 m-auto bg-white/75 shadow-xl rounded-lg">
-                    Siamo <span className="text-logo text-2xl">M</span>artina e <span className="text-logo text-2xl">C</span>hiara 
-                    e dal 2019 ci occupiamo di Marketing e Comunicazione nella nostra agenzia.
-                    <br></br>
-                    <span className="text-logo">La nostra mission?</span>
-                    <br></br>
-                    Far capire a tutti gli imprenditori, e a chi vuole sviluppare un progetto imprenditoriale di successo,
-                    che nell’era digitale non si può più fare a meno di una buona strategia di comunicazione.
-                    <br></br>
-                    <span className="text-logo">Cosa Facciamo?</span>
-                    <br></br>
-                    Trasformiamo sogni e progetti in fatti reali e concreti.
-                    Laddove c'è un’esigenza comunicativa, noi l’ascoltiamo e successivamente, insieme a voi, la progettiamo.
-                </p>
+        <div className="sezione lg:min-h-dvh">
+            <h1 className="bg-logo text-white text-5xl lg:text-8xl">
+                Agenzia
+            </h1>
+            <div className="grid lg:grid-cols-3 h-full divide-logo/25 divide-y-2 lg:divide-y-0 lg:divide-x-2 mt-5">
+                <div className="flex flex-col justify-center p-10 ">
+                    <h2 className="text-xl lg:text-3xl text-logo">
+                        Chi siamo
+                    </h2>
+                    <p className="text-base lg:text-xl mt-5 lg:mt-10">
+                        Professioniste del Marketing e della Comunicazione. Dal 2019, nella nostra
+                        agenzia, aiutiamo aziende e professionisti a distinguersi nel mercato. Grazie a un mix di creatività 
+                        e strategia, trasformiamo le idee in progetti concreti e di successo.
+                    </p>
+                </div>
+                <div className="flex flex-col justify-center p-10">
+                    <h2 className="text-xl lg:text-3xl text-logo">
+                        La nostra mission
+                    </h2>
+                    <p className="text-base lg:text-xl mt-5 lg:mt-10">
+                        Vogliamo mostrare agli imprenditori l’importanza di una strategia di comunicazione solida nell’era digitale. 
+                        Crediamo che un brand vincente nasca da una comunicazione efficace, capace di raggiungere il pubblico 
+                        giusto al momento giusto.
+                    </p>
+                </div>
+                <div className="flex flex-col justify-center p-10">
+                    <h2 className="text-xl lg:text-3xl text-logo">
+                        Cosa facciamo
+                    </h2>
+                    <p className="text-base lg:text-xl mt-5 lg:mt-10">
+                        Ascoltiamo le esigenze dei nostri clienti e, insieme a loro, creiamo piani su misura. Dalla gestione 
+                        dei contenuti digitali alle campagne pubblicitarie, progettiamo soluzioni innovative che portano 
+                        risultati concreti.
+                    </p>                
+                </div>
             </div>
+            <Team/>
         </div>
     );
 }

@@ -33,7 +33,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
           </li>
           <li className="text-5xl lg:text-7xl cursor-pointer">
             <Link to="about" smooth={true} duration={500} onClick={handleLinkClick}>
-              Chi Siamo
+              Agenzia
             </Link>
           </li>
           <li className="text-5xl lg:text-7xl cursor-pointer">
@@ -44,11 +44,6 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
           <li className="text-5xl lg:text-7xl cursor-pointer">
             <Link to="portfolio" smooth={true} duration={500} onClick={handleLinkClick}>
               Portfolio
-            </Link>
-          </li>
-          <li className="text-5xl lg:text-7xl cursor-pointer">
-            <Link to="team" smooth={true} duration={500} onClick={handleLinkClick}>
-              Il Team
             </Link>
           </li>
           <li className="text-5xl lg:text-7xl cursor-pointer">

@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Servizi from './components/Servizi';
 import Portfolio from './components/Portfolio';
-import Team from './components/Team';
 import Footer from './components/Footer';
 import React,{ useState } from 'react';
 import Contatti from './components/Contatti';
@@ -40,11 +39,6 @@ function App() {
           <RevealOnScroll>
           <section id="portfolio">
             <Portfolio />
-          </section>
-          </RevealOnScroll>
-          <RevealOnScroll>
-          <section id="team">
-            <Team />
           </section>
           </RevealOnScroll>
           <RevealOnScroll>
