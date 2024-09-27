@@ -2,7 +2,7 @@ import React from "react";
 import { FaHeart, FaPhotoVideo, FaCalendar} from "react-icons/fa";  // Importa le icone correttamente
 import { GrAnnounce } from "react-icons/gr";
 import { TbWorldWww, TbBusinessplan  } from "react-icons/tb";
-import Parallax from "./Parallax";
+import Parallax from "./AnimationComponents/Parallax";
 
 
 const Servizi = () => {

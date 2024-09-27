@@ -4,6 +4,7 @@
 body, html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6, span {
@@ -33,6 +34,7 @@ nav {z-index: 999;}
 
 .sezione{
   padding: 20px;
+  margin-top: 30px;
 }
 
 

@@ -1,19 +1,19 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About';
+import About from './components/AboutSection/About';
 import Servizi from './components/Servizi';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/PortfolioSection/Portfolio';
 import Footer from './components/Footer';
 import React,{ useState } from 'react';
 import Contatti from './components/Contatti';
-import RevealOnScroll from './components/RevealOnScroll';
+import RevealOnScroll from './components/AnimationComponents/RevealOnScroll';
 
 function App() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="App bg-ghost">
+    <div className="App bg-ghost ">
       <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       {/* Pagina contenuto con maschera e spostamento */}
       <div className={`transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-3/4 lg:translate-x-1/2' : ''}`}>

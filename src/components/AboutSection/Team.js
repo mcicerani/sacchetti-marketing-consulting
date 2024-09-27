@@ -5,10 +5,10 @@ import { FaLinkedin } from "react-icons/fa";
 const Team = () => {
     return (
         <div className="sezione">
-            <div className="flex justify-center items-center h-full mt-10">
-                <ul className="flex flex-col lg:flex-row justify-center items-center">
+            <div className="flex justify-center items-center h-full p-5">
+                <ul className="flex flex-col md:flex-row justify-center items-center">
                     <li className="flex flex-col mx-5 my-5 lg:mx-20 justify-center items-center ">
-                        <img src="martina.png" alt="" className="rounded-full h-48"/>
+                        <img src="martina.png" alt="" className="rounded-full h-40 lg:h-48"/>
                         <h2 className="text-lg lg:text-2xl my-1">
                             Martina Sacchetti
                         </h2>
@@ -20,7 +20,7 @@ const Team = () => {
                         </a>
                     </li>
                     <li className="flex flex-col mx-5 my-5 lg:mx-20 justify-center items-center">
-                        <img src="chiara.png" alt="" className="rounded-full h-48"/>
+                        <img src="chiara.png" alt="" className="rounded-full h-40 lg:h-48"/>
                         <h2 className="text-lg lg:text-2xl my-1">
                             Chiara Sacchetti
                         </h2>
@@ -32,7 +32,7 @@ const Team = () => {
                         </a>
                     </li>                
                     <li className="flex flex-col mx-5 my-5 lg:mx-20 justify-center items-center">
-                        <img src="emanuela.png" alt="Foto Emanuela Cittarelli" className="rounded-full h-48"/>
+                        <img src="emanuela.png" alt="Foto Emanuela Cittarelli" className="rounded-full h-40 lg:h-48"/>
                         <h2 className="text-lg lg:text-2xl my-1">
                             Emanuela Cittarelli
                         </h2>

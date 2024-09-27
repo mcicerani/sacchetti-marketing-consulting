@@ -1,5 +1,5 @@
 import React from "react";
-import RevealOnScroll from "./RevealOnScroll";
+import RevealOnScroll from "./AnimationComponents/RevealOnScroll";
 
 const Hero = () => {
   return (
