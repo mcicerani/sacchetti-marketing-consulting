@@ -22,7 +22,7 @@ const Contatti = () => {
                         <textarea id="messaggio" name="messaggio" placeholder="Messaggio" className="w-full p-2 rounded-sm border border-gray-500 block resize-none h-20 focus:border-logo focus:ring-logo" required></textarea>
                     </div>
                     <div className="col-span-2 lg:col-span-1 flex items-center justify-center lg:justify-normal">
-                        <button type="submit" className="bg-logo text-white w-32 lg:w-48 h-14 rounded-xl text-xl hover:bg-black hover:text-logo ease-in-out duration-500">Invia</button>
+                        <button type="submit" className="hover:bg-logo text-white w-auto flex p-5 lg:p-10 items-center justify-center lg:w-48 h-14 rounded-xl text-xl font-semibold bg-logo lg:bg-logo/60 hover:text-white border border-logo ease-in-out duration-500">Invia</button>
                     </div>
                     <img src="qr-code.png" alt="QR Code" className="h-48 mx-auto mt-10 col-span-2" />
                 </div>

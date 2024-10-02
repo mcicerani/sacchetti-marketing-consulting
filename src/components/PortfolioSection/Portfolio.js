@@ -3,11 +3,12 @@ import Clienti from './Clienti';
 import Parallax from "../AnimationComponents/Parallax";
 
 const Portfolio = () => {
+
     const projects = [
         {
             title: "Progetto 1",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            image: "parallax-3.jpg"
+            image: "parallax-2.png"
         },
         {
             title: "Progetto 2",
@@ -17,7 +18,7 @@ const Portfolio = () => {
         {
             title: "Progetto 3",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            image: "parallax-2.png"
+            image: "parallax-3.jpg"
         },
         {
             title: "Progetto 4",
@@ -27,12 +28,12 @@ const Portfolio = () => {
         {
             title: "Progetto 5",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            image: "parallax-2.png"
+            image: "parallax-3.jpg"
         },
         {
             title: "Progetto 6",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            image: "parallax-3.jpg"
+            image: "parallax-2.png"
         }
     ];
 
@@ -52,7 +53,7 @@ const Portfolio = () => {
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className={`w-full ${index === 3 ? 'lg:h-full' : 'lg:h-96'} object-cover rounded-xl`}
+                                className={`h-96 w-full ${index === 3 ? 'lg:h-full' : 'lg:h-96'} object-cover rounded-xl`}
                             />
                             {/* Title and description container */}
                             <div className="bg-logo absolute bottom-0 left-0 w-full bg-opacity-50 text-white p-4 flex flex-col justify-center items-start rounded-b-xl max-h-[40px] overflow-hidden transform transition-all duration-500 ease-in-out group-hover:max-h-[160px] group-hover:bg-opacity-100 group-hover:bg-logo">

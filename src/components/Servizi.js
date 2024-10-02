@@ -41,9 +41,9 @@ const Servizi = () => {
 
     return (
         <React.Fragment>
-            <div className="sezione min-h-dvh lg:h-dvh">
+            <div className="sezione min-h-dvh">
                 <h1 className="bg-logo text-white text-5xl lg:text-8xl">I Nostri Servizi</h1>
-                <div className="grid md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 h-5/6 m-10 items-center justify-center gap-10 lg:p-5">
+                <div className="grid md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 lg:h-[80vh] m-10 items-center justify-center gap-10 lg:p-5">
                     {servizi.map((servizio, index) => (
                         <div key={index} className="servizio shadow-xl bg-white rounded-lg p-10 lg:p-5 text-center h-full flex flex-col items-center justify-center">
                             {/* Renderizza l'icona */}

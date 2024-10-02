@@ -19,7 +19,8 @@ const RevealOnScroll = ({ children }) => {
             if (currentRef) {
                 scrollObserver.unobserve(currentRef);
             }
-        };    }, []);
+        };
+    }, []);
  
     const classes = `transition-all duration-1000 ease-in-out transform
         ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"

@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/NavigationComponents/Navbar';
 import Hero from './components/Hero';
 import About from './components/AboutSection/About';
 import Servizi from './components/Servizi';
@@ -14,6 +14,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="App bg-ghost ">
+
       <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       {/* Pagina contenuto con maschera e spostamento */}
       <div className={`transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-3/4 lg:translate-x-1/2' : ''}`}>
