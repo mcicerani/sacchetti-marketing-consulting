@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'logo': '#df1b48',
-        'logo-dark': '#b01438',
+        'logo': '#c41440',
+        'logo-dark': '#9e1033',
         'logo-light': '#fce8ed',
         'ghost': '#F3F4F6',
       },

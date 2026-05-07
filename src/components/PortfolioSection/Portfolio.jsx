@@ -77,14 +77,14 @@ const Portfolio = () => {
                                         className={`w-full object-cover ${IMG_HEIGHT[size] || IMG_HEIGHT.normal}`}
                                         loading="lazy"
                                     />
-                                    <div className={`absolute bottom-0 left-0 w-full text-white p-4 flex flex-col justify-center items-start overflow-hidden transform transition-all duration-500 ease-in-out
+                                    <div className={`absolute bottom-0 left-0 w-full p-4 flex flex-col justify-center items-start overflow-hidden transform transition-all duration-500 ease-in-out
                                         ${isOpen
                                             ? 'max-h-[160px] bg-logo'
                                             : 'max-h-[48px] bg-gradient-to-t from-black/60 to-transparent group-hover:max-h-[160px] group-hover:bg-logo'
                                         }`}
                                     >
-                                        <h3 className="text-base lg:text-lg font-marcellus">{project.title}</h3>
-                                        <p className={`text-sm mt-1 leading-snug transition-all duration-500 ease-in-out ${isOpen ? 'block' : 'hidden group-hover:block'}`}>
+                                        <h3 className={`text-base lg:text-lg font-marcellus transition-colors duration-300 ${isOpen ? 'text-white' : 'text-logo group-hover:text-white'}`}>{project.title}</h3>
+                                        <p className={`text-sm mt-1 text-white leading-snug transition-all duration-500 ease-in-out ${isOpen ? 'block' : 'hidden group-hover:block'}`}>
                                             {project.description}
                                         </p>
                                     </div>

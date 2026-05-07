@@ -45,21 +45,28 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
         </button>
 
         <ul className={`font-marcellus ml-10 space-y-4 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0'}`}>
-          <li className="text-5xl lg:text-7xl cursor-pointer">
-            <Link to="hero" smooth={true} duration={500} onClick={handleLinkClick}>Home</Link>
-          </li>
-          <li className="text-5xl lg:text-7xl cursor-pointer">
-            <Link to="about" smooth={true} duration={500} onClick={handleLinkClick}>Agenzia</Link>
-          </li>
-          <li className="text-5xl lg:text-7xl cursor-pointer">
-            <Link to="servizi" smooth={true} duration={500} onClick={handleLinkClick}>Servizi</Link>
-          </li>
-          <li className="text-5xl lg:text-7xl cursor-pointer">
-            <Link to="portfolio" smooth={true} duration={500} onClick={handleLinkClick}>Portfolio</Link>
-          </li>
-          <li className="text-5xl lg:text-7xl cursor-pointer">
-            <Link to="contatti" smooth={true} duration={500} onClick={handleLinkClick}>Contatti</Link>
-          </li>
+          {[
+            { to: 'hero', label: 'Home' },
+            { to: 'about', label: 'Agenzia' },
+            { to: 'servizi', label: 'Servizi' },
+            { to: 'portfolio', label: 'Portfolio' },
+            { to: 'contatti', label: 'Contatti' },
+          ].map(({ to, label }) => (
+            <li key={to} className="text-5xl lg:text-7xl cursor-pointer">
+              <Link
+                to={to}
+                smooth={true}
+                duration={500}
+                spy={true}
+                offset={-80}
+                className="opacity-60 hover:opacity-100 transition-opacity duration-200"
+                activeClass="!opacity-100 border-b-2 border-white"
+                onClick={handleLinkClick}
+              >
+                {label}
+              </Link>
+            </li>
+          ))}
         </ul>
 
         <ul className={`font-marcellus mt-20 ml-5 flex flex-row text-3xl lg:text-4xl transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0'}`}>

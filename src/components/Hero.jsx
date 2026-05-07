@@ -11,7 +11,7 @@ const Hero = () => {
 
   return (
     <div className="hero flex flex-col justify-center items-center h-dvh">
-      <img src="logo.png" alt="Sacchetti Marketing Consulting" className="logo h-72 p-5 md:h-80 lg:h-96" />
+      <img src="logo.png" alt="Sacchetti Marketing Consulting" width="400" height="400" className="logo h-72 p-5 md:h-80 lg:h-96" />
       <RevealOnScroll>
         <div className="flex flex-col items-center gap-6 mt-6">
           <h1 className="text-xl lg:text-3xl text-logo font-marcellus text-center px-4">
@@ -23,7 +23,7 @@ const Hero = () => {
             </button>
           </Link>
           <Link to="about" smooth={true} duration={500}>
-            <FaChevronDown className="animate-bounce text-logo text-3xl mt-4 cursor-pointer" aria-hidden="true" />
+            <FaChevronDown className="animate-bounce motion-reduce:animate-none text-logo text-3xl mt-4 cursor-pointer" aria-hidden="true" />
           </Link>
         </div>
       </RevealOnScroll>

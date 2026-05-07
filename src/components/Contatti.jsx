@@ -99,7 +99,7 @@ const Contatti = () => {
                         src="qr-code.png"
                         alt="QR Code per contatti rapidi — scansiona per aprire la nostra pagina"
                         width={192} height={192}
-                        className="h-40 mx-auto mt-6 col-span-2 opacity-80"
+                        className="mx-auto mt-6 col-span-2 opacity-80"
                     />
                 </div>
             </form>

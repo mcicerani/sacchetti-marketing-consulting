@@ -5,7 +5,7 @@ import { urlFor } from "../../sanity/imageUrl";
 const LogoList = ({ clienti, listRef }) => (
     <ul
         ref={listRef}
-        className="flex items-center justify-center md:justify-start [&_li]:mx-2 lg:[&_li]:mx-4 [&_img]:max-w-none animate-infinite-scroll"
+        className="flex items-center justify-center md:justify-start [&_li]:mx-2 lg:[&_li]:mx-4 [&_img]:max-w-none animate-infinite-scroll motion-reduce:animate-none"
     >
         {clienti.map(({ name, logo, url }, i) => {
             const imgSrc = logo && typeof logo === 'object'
